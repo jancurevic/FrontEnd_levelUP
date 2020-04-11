@@ -1,0 +1,23 @@
+{
+  "name": "frontend_levelup",
+  "version": "1.0.0",
+  "description": "Homework 4 DaftAcademy frontend level up course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martin11M/Frontend-levelUP.git"
+  },
+  "author": "Marcin Janczurewicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martin11M/Frontend-levelUP/issues"
+  },
+  "homepage": "https://github.com/Martin11M/Frontend-levelUP#readme",
+  "dependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

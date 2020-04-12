@@ -4,6 +4,7 @@
   "description": "Homework 4 DaftAcademy frontend level up course",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,19 @@
   },
   "homepage": "https://github.com/Martin11M/Frontend-levelUP#readme",
   "dependencies": {
-    "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
-  }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.42.1"
+  },
+  "browserlists": [
+    "defaults"
+  ]
 }

@@ -4,7 +4,7 @@
   "description": "Homework 4 DaftAcademy frontend level up course",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack --prod --output-path docs --base-href",
     "start": "webpack-dev-server --open"
   },
   "repository": {

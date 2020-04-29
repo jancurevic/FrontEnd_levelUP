@@ -121,7 +121,7 @@
         <section class="new">
           <h2 class="text-center">New Arrivals</h2>
 
-          <div class="row">
+          <div id="new-arrivals-container" class="row">
             <div class="new__card card col-12 col-sm-6 col-md-4 col-lg-3">
               <a href="#"><img class="card-img-top w-90" src="https://via.placeholder.com/309x390" alt="Coat" />
               </a>
@@ -182,7 +182,7 @@
             </div>
           </div>
           <div class="d-flex justify-content-center">
-            <button type="button" class="btn btn-outline-dark new__button">
+            <button id="all-products" type="button" class="btn btn-outline-dark new__button">
               All products
             </button>
           </div>
@@ -256,8 +256,8 @@
         </div>
       </div>
 
-      <a class="scroll-to-top hidden" href="#top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"
+      <a class="scroll-to-top hide" href="#top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"
           aria-labelledby="arrowUpIconTitle">
           <path d="M9 10.5l3-3 3 3"></path>
           <path d="M12 16.5V9"></path>
@@ -327,7 +327,7 @@
           </div>
         </div>
         <div class="footer__additional">
-          <span>&copy;2020 Zonex All rights reserved</span>
+          <span>&copy;<span id="footer-date"></span> Zonex All rights reserved</span>
           <div>
             <img src="./assets/payment.png" alt="Available payment methods: mastercard, VISA, PayPal" />
           </div>

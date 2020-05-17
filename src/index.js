@@ -1,20 +1,13 @@
 import "./styles/style.scss";
-
-import {
-  handleScrollToTop,
-  handleDate,
-  handleNewArrivals,
-} from "./handlers/handlers";
-
+import createMainModule from "./handlers/handlers";
 window.addEventListener("DOMContentLoaded", () => {
+  const mainModule = createMainModule()
   // setting footer date
-  handleDate();
-
+  mainModule.handleDate();
   // adding scroll to top functionality
-  window.addEventListener("scroll", handleScrollToTop);
-
+  window.addEventListener("scroll", mainModule.handleScrollToTop);
   // add new arrivals to all products
   document
     .getElementById("all-products")
-    .addEventListener("click", handleNewArrivals);
+    .addEventListener("click", mainModule.handleNewArrivals);
 });

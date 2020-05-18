@@ -1,11 +1,6 @@
 import "./styles/style.scss";
 import createMainModule from "./scripts/handlers";
-
 import { Server } from "miragejs";
-
-// const randomId = () => {
-//   return Math.round(Math.random() * 999);
-// };
 
 new Server({
   routes() {

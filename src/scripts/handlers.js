@@ -23,7 +23,7 @@ const createMainModule = function() {
       "col-lg-3"
     );
     newArrival.innerHTML = `
-  <a href="#"><img class="card-img-top w-90" src="https://via.placeholder.com/309x390" alt="Coat" /></a>
+  <a href="#"><img class="card-img-top w-90" src="https://picsum.photos/id/${Math.round(Math.random() * 999)}/309/390" alt="Coat" /></a>
   <div class="card-body">
     <a class="card-text new__product-name" href="#">Coat</a>
     <span class="card-text price">$49.99</span>
